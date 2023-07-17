@@ -1,12 +1,12 @@
 import { HStack, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import logo from "../assets/macdonald-logo.webp";
-
+import ColorModeSwitcher from "./ColorModeSwitcher";
 const NavBar = () => {
   return (
-    <HStack>
+    <HStack justifyContent="space-between" padding="10px">
       <Image src={logo} boxSize="100px"></Image>
-      <Text>NavBar</Text>
+      <ColorModeSwitcher />
     </HStack>
   );
 };
