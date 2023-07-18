@@ -1,6 +1,6 @@
 import { HStack, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import logo from "../assets/macdonald-logo.webp";
+import logo from "../assets/steam-logo.png";
 import ColorModeSwitcher from "./ColorModeSwitcher";
 const NavBar = () => {
   return (
